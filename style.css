@@ -1,17 +1,20 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
 }
 
 body {
-    background-color: #E9F5F8;
+    background-color: #f0fcff;
     height: 100%;
     padding: 0;
     margin: 0;
 }
 
 .contenedor_fondo {
-    background-color: #E9F5F8;
+    background-color: #f0fcff;
     height: 80%;
 }
 
@@ -24,11 +27,10 @@ body {
 
 /* NAV*/
 .contenedor_header {
-    background-color: #ca1dc5;
+    background-color: #eb34e5;
     opacity: 0.6;
     margin: 0;
     padding-top: 40px;
-    height: 50px;
     font-size: 20px;
     text-align: center;
     
@@ -39,7 +41,7 @@ body {
     display: inline;
     list-style: none;
     text-decoration: none;
-    color: #F3F3F3;
+    color: #f0fcff;
     font-size: 17px;
     padding: 10px;
 }
@@ -47,57 +49,67 @@ body {
 /* PARRAFOS */
 
 .contenedor_texto {
-    margin: 70px 250px 70px 270px;
-    padding: 30px 70px;
+    margin: 50px 100px;
+    margin-bottom: 0;
+    padding: 50px;
     position: relative;
     text-align: center;
-    border: 2px solid #B300AD;
+    border: 2px solid #eb34e5;
 }
 
 
 /* VIDEO */
 
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 .contenedor_video {
-    height: 400px;
-    width: 600px;
-    margin: 10px 250px 0px 100px;
-    padding: 30px 100px 150px 100px;
+    height: auto;
+    width: auto;
     position: relative;
-    display: inline;
+    text-align: center;
 }
 
 video {
-    height: 400px;
-    width: 600px; 
-    margin-left: 80px;  
+    height: 100vh;
+    width: 100vh;
 }
 
 
 .contenedor_herramientas {
     display: flex;
-    flex-direction: row;
-    height: 350px;
-    margin: 100px 100px 400px 120px;
-
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 
 .herramienta {
-    padding-top: 100px;
-    margin-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 .herramienta iframe {
     width: 350px;
     height: 200px;
+    border-radius: 5px solid #ccc;
 }
+
+.herramienta img {
+    width: 300px;
+    height: 300px;
+}
+
 
 
 
 /* FOOTER */
 
 .contenedor_footer {
-    background-color: #ca1dc5;
+    background-color: #eb34e5;
     opacity: 0.6;
     margin: 0;
     padding: 0;
@@ -121,7 +133,7 @@ p {
 form {
     width: 450px;
     margin: auto;
-    background: #fa1af2;
+    background: #eb34e5;
     opacity: 0.55;  
     padding: 10px 20px;
     box-sizing: border-box;
