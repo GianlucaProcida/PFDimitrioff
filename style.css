@@ -135,7 +135,15 @@ video {
     
 }
 
-.contenedor_fondo li {
+.contenedor_footer ul li {
+    display: inline;
+    list-style: none;
+    color: #F3F3F3;
+   font-size: 15px;
+}
+
+
+.contenedor_fondo ul li {
     display: inline;
     list-style: none;
     color: #F3F3F3;
