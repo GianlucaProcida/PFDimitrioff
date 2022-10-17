@@ -198,6 +198,17 @@ textarea {
 
 @media screen and (max-width: 1024px) {
 
+.contenedor_home {
+    height: 100px;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    border: 2px solid #eb34e5; 
+}    
+ 
+    
 /* VIDEO */
 
 section {
